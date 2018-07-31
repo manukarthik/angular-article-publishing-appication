@@ -15,4 +15,10 @@ componentsModule.directive('showAuthed', ShowAuthed);
 import FollowBtn from './buttons/follow-btn.component';
 componentsModule.component('followBtn', FollowBtn);
 
+import ArticlePreview from './article-helpers/article-preview.component';
+componentsModule.component('articlePreview',ArticlePreview);
+
+ import ArticleList from './article-helpers/article-list.component';
+ componentsModule.component('articleList', ArticleList);
+
 export default componentsModule;
